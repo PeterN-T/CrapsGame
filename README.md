@@ -1,1 +1,1 @@
-#The game craps, written in Java
+The game craps, written in Java
