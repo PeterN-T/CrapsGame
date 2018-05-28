@@ -1,0 +1,56 @@
+//Peter Nguyen-Truong
+
+		Driver
+----------------------
++main()
+
+		Craps
+-wager : int
+-balance : int
+-point : int
+-----------------------
+rollDice() : void
+isValidWager(wager : int,balance : int)
+setWager(wager : int)
+getWager() : int
+
+
+		Crowd
+-number : int
+-cheerArray[] : String
+-pityArray[] : String
+------------------------
+<< constructor >> Crowd()
++cheer() : void
++pity() : void
+
+	
+
+		Player
+-playerName : String
+-playerBalance : int
+------------------------
+<< constructor >> Player(name : String, balance : int)
++setBalance(balance : int) : void
++increaseBalance(balance : int) : void
++decreaseBalance(balance : int) : void
++getBalance() : int
++getName() : String
+
+
+
+		Die
+------------------------
+-face : int
+<< constructor >> Die()
+-setFace()
+-getFace()
+
+
+
+		Dice
+-------------------------
+-sumOfFaces : int
+<< constructor >> Dice()
+-setSumOfFaces(die1 : int, die2 : int)
+-getSumOfFaces() : int
